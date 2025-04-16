@@ -19,7 +19,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Arpan Nyati1",
+  title: "Arpan Nyati",
   logo_name: "ArpanNyati",
   nickname: "arpan_ny",
   subTitle:
