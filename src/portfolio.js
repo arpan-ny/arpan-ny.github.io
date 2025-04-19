@@ -717,12 +717,12 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
+    subtitle: "Bellandur, Bengaluru, Karnataka, India",
     locality: "San Jose",
     country: "USA",
     region: "California",
@@ -732,8 +732,8 @@ const contactPageData = {
     location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: " ",
+    subtitle: "Cell: +91 9521416660",
   },
 };
 
