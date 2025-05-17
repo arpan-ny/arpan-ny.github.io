@@ -10,7 +10,7 @@ class DegreeCard extends Component {
       <div className="degree-card">
         {degree.logo_path && (
           <Flip left duration={2000}>
-            <div className="card-img">
+            {/* <div className="card-img">
               <img
                 style={{
                   maxWidth: "100%",
@@ -20,7 +20,7 @@ class DegreeCard extends Component {
                 src={require(`../../assets/images/${degree.logo_path}`)}
                 alt={degree.alt_name}
               />
-            </div>
+            </div> */}
           </Flip>
         )}
         <Fade right duration={2000} distance="40px">
