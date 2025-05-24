@@ -16,7 +16,7 @@ const App: React.FC = () => {
         style={{ backgroundColor: "var(--app-background-color)" }}
       >
         <Header />
-        <main className="flex-grow flex items-center justify-center pt-20 md:pt-0">
+        <main className="flex-grow flex items-center justify-center pt-20 md:pt-0 px-2 sm:px-4">
           {" "}
           {/* pt-20 to ensure content starts below fixed header */}
           <Routes>
