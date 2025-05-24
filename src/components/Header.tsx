@@ -68,12 +68,12 @@ const Header: React.FC = () => {
       </button>
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="absolute top-full left-0 w-full z-20">
-          <ul className="flex flex-col items-center py-4 space-y-2 text-lg font-medium text-gray-700">
+        <div className="absolute top-full right-0 w-2/3 max-w-xs z-20">
+          <ul className="flex flex-col items-end py-4 pr-4 space-y-2 text-lg font-medium text-gray-700">
             <li>
               <Link
                 to="/notes"
-                className="block w-full px-4 py-2 hover:text-blue-500"
+                className="block w-full px-4 py-2 hover:text-blue-500 text-right"
                 onClick={() => setMenuOpen(false)}
               >
                 notes
@@ -82,7 +82,7 @@ const Header: React.FC = () => {
             <li>
               <Link
                 to="/projects"
-                className="block w-full px-4 py-2 hover:text-blue-500"
+                className="block w-full px-4 py-2 hover:text-blue-500 text-right"
                 onClick={() => setMenuOpen(false)}
               >
                 projects
@@ -91,10 +91,19 @@ const Header: React.FC = () => {
             <li>
               <Link
                 to="/resume"
-                className="block w-full px-4 py-2 hover:text-blue-500"
+                className="block w-full px-4 py-2 hover:text-blue-500 text-right"
                 onClick={() => setMenuOpen(false)}
               >
                 resume
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contact"
+                className="block w-full px-4 py-2 hover:text-blue-500 text-right"
+                onClick={() => setMenuOpen(false)}
+              >
+                contact
               </Link>
             </li>
           </ul>
