@@ -7,6 +7,7 @@ import NotesPage from "./pages/NotesPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ResumePage from "./pages/ResumePage";
+import Contacts from "./pages/Contacts";
 
 const App: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const App: React.FC = () => {
             <Route path="/notes" element={<NotesPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/resume" element={<ResumePage />}></Route>
+            <Route path="/contact" element={<Contacts />}></Route>
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
