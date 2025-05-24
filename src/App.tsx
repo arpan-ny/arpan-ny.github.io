@@ -10,7 +10,10 @@ import NotFoundPage from "./pages/NotFoundPage";
 const App: React.FC = () => {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen bg-gray-100 font-sans">
+      <div
+        className="flex flex-col min-h-screen font-sans"
+        style={{ backgroundColor: "var(--app-background-color)" }}
+      >
         <Header />
         <main className="flex-grow flex items-center justify-center pt-20 md:pt-0">
           {" "}
@@ -19,6 +22,7 @@ const App: React.FC = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/notes" element={<NotesPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/resume"></Route>
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>

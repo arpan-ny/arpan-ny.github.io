@@ -29,6 +29,14 @@ const Header: React.FC = () => {
                   projects
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/resume"
+                  className="hover:text-blue-500 transition-colors duration-200"
+                >
+                  resume
+                </Link>
+              </li>
             </ul>
           </nav>
         </ul>

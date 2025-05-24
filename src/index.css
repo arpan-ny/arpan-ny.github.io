@@ -1,0 +1,32 @@
+/* src/index.css */
+
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Styles (Optional) */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Example: Applying a custom font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* You can define custom CSS variables here too */
+:root {
+  --primary-color:rgb(192, 192, 192); /* Example: blue-500 */
+  --app-background-color: #FFFFF5;
+}
+
+/* Any global classes that apply to multiple components, though with Tailwind, this is less common */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

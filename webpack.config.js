@@ -37,6 +37,7 @@ module.exports = {
                   require("tailwindcss"),
                   require("autoprefixer"), // Add vendor prefixes
                 ],
+                config: true,
               },
             },
           },
