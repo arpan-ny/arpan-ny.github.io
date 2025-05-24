@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
           linkedin
         </a>
         <a>|</a>
-        <a>© Arpan Nyati 2025</a>
+        <a>© Arpan Nyati</a>
       </div>
     </footer>
   );
