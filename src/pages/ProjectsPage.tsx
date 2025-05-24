@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectsPage: React.FC = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="flex-grow flex items-center justify-center p-6 mt-20 md:mt-0">
       <h1 className="text-4xl font-bold text-gray-800">Projects Section (Coming Soon!)</h1>
     </div>
   );
