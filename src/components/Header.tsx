@@ -35,6 +35,14 @@ const Header: React.FC = () => {
               resume
             </Link>
           </li>
+          <li>
+            <Link
+              to="/contact"
+              className="hover:text-blue-500 transition-colors duration-200"
+            >
+              contact
+            </Link>
+          </li>
         </ul>
       </nav>
       {/* Hamburger for mobile */}
