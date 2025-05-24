@@ -7,7 +7,7 @@ This is a personal portfolio website built with React and Tailwind CSS.
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/<your-username>/<your-repo-name>.git
+git clone https://github.com/arpan-ny/arpan-ny.github.io.git
 cd <your-repo-name>
 ```
 
