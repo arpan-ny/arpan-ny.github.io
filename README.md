@@ -1,6 +1,7 @@
 # Arpan Nyati Portfolio
 
-This is a personal portfolio website built with React and Tailwind CSS.
+This is a personal portfolio website built with React and Tailwind CSS.<br>
+[Link to Portfolio Website](https://arpan-ny.github.io/)
 
 ## 🚀 Getting Started
 
