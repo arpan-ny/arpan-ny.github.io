@@ -10,7 +10,7 @@ This is a personal portfolio website built with React and Tailwind CSS.
 git clone https://github.com/arpan-ny/arpan-ny.github.io.git
 cd <your-repo-name>
 ```
-Make sure the repo name is <your-username>.github.io
+Make sure the repo name is `<your-username>.github.io`
 
 ---
 
