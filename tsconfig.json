@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // Specify ECMAScript target version
+    "lib": ["dom", "dom.iterable", "esnext"], // List of library files to be included in the compilation
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "skipLibCheck": true, // Skip type checking of all declaration files
+    "esModuleInterop": true, // Allow 'import x from y' when a module doesn't have a default export
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "strict": true, // Enable all strict type-checking options
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file
+    "noFallthroughCasesInSwitch": true, // Report errors for fallthrough cases in switch statement
+    "module": "esnext", // Specify module code generation
+    "moduleResolution": "node", // Resolve modules using Node.js style
+    "resolveJsonModule": true, // Include modules imported with '.json' extension
+    "isolatedModules": true, // Ensure that each file can be safely transpiled without relying on other files
+    "noEmit": true, // Do not emit outputs (e.g. JavaScript files)
+    "jsx": "react-jsx", // Support JSX in .tsx files
+    "incremental": true, // Enable incremental compilation
+    "outDir": "./dist" // Output directory for compiled files (though noEmit is true, this can be useful for IDEs)
+  },
+  "include": ["src"], // Specify files to include in compilation
+  "exclude": ["node_modules", "dist"] // Specify files to exclude from compilation
+}
