@@ -36,7 +36,7 @@ This project is set up to deploy to GitHub Pages using the `gh-pages` branch.
 - Set the `homepage` field to:
   
   ```json
-  "homepage": "https://<your-username>.github.io/<your-repo-name>"
+  "homepage": "https://<your-username>.github.io"
   ```
 
 ### 2. Add Deployment Scripts
