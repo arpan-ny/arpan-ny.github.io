@@ -1,5 +1,5 @@
 /* src/index.css */
-
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 /* Tailwind CSS directives */
 @tailwind base;
 @tailwind components;
@@ -8,9 +8,9 @@
 /* Custom Global Styles (Optional) */
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif; /* Example: Applying a custom font */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--app-background-color);
 }
 
 code {

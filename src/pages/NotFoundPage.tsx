@@ -1,10 +1,9 @@
-// src/pages/NotFoundPage.tsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NotFoundPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6 text-center">
+    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6 text-center" style={{ backgroundColor: "var(--app-background-color)" }}>
       <h1 className="text-9xl font-extrabold text-gray-900 mb-4 tracking-tight">
         404
       </h1>
@@ -17,7 +16,7 @@ const NotFoundPage: React.FC = () => {
       </p>
       <Link
         to="/"
-        className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-300 transform hover:scale-105"
+        className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-300 transform hover:scale-105"
       >
         Go to Homepage
       </Link>

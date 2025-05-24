@@ -1,5 +1,5 @@
 import React from "react";
-import illustration from "../assets/images/arpan.png"; // Make sure this path is correct
+import illustration from "../assets/images/arpan.png";
 
 const HomePage: React.FC = () => {
   return (
@@ -7,14 +7,11 @@ const HomePage: React.FC = () => {
       {" "}
       {/* mt-20 to push content down below header */}
       <div className="flex flex-col items-center max-w-4xl w-full text-center">
-        {/* Illustration */}
         <img
           src={illustration}
           alt="Arpan Nyati Illustration"
           className="w-full max-w-md md:max-w-lg lg:max-w-xl mb-12"
         />
-
-        {/* Text Content */}
         <div className="text-gray-800 text-lg md:text-xl leading-relaxed max-w-2xl">
           <p className="mb-4">
             I'm a product-minded software engineer based in Bengaluru, IN. I've
