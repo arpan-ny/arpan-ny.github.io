@@ -11,6 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-color);
+  font-family: 'Delius', sans-serif; /* Apply Google Font globally */
 }
 
 code {
@@ -27,7 +28,7 @@ code {
 
 .light {
   --primary-color: #000000;
-  --app-background-color: #FFFFFF;
+  --app-background-color: #FFFFF5;
 }
 
 .dark {
