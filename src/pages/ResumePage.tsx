@@ -3,7 +3,9 @@ import React from 'react';
 const ResumePage: React.FC = () => {
   return (
     <div className="flex-grow flex flex-col items-center justify-center p-4 sm:p-6 mt-20 md:mt-0">
-      <h1 className="text-2xl sm:text-4xl font-bold text-gray-800 text-center mb-6">Resume</h1>
+      <h1 className="text-2xl sm:text-4xl font-bold text-center mb-6" style={{ color: "var(--text-color)" }}>
+        Resume
+      </h1>
       {/* Download Resume Button */}
       {/* <a
         href="/Arpan_Resume.pdf"

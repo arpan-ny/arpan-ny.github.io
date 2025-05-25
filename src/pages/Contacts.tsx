@@ -11,7 +11,10 @@ const Contacts: React.FC = () => {
 
   return (
     <div className="flex-grow flex flex-col items-center justify-center p-4 sm:p-6 mt-20 md:mt-0">
-      <h1 className="text-2xl sm:text-4xl font-bold text-gray-800 text-center mb-6">
+      <h1
+        className="text-2xl sm:text-4xl font-bold text-center mb-6"
+        style={{ color: "var(--text-color)" }}
+      >
         Contact
       </h1>
       <div
@@ -19,7 +22,10 @@ const Contacts: React.FC = () => {
         style={{ minHeight: "48px" }}
       >
         <div className="flex items-center space-x-2">
-          <span className="text-lg text-gray-800 select-all">
+          <span
+            className="text-lg select-all"
+            style={{ color: "var(--text-color)" }}
+          >
             work.arpannyati@gmail.com
           </span>
           <button

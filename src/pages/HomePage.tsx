@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
           alt="Arpan Nyati Illustration"
           className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl mb-8 sm:mb-12"
         />
-        <div className="text-gray-800 text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl px-2 sm:px-0">
+        <div className="text-gray-800 text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl px-2 sm:px-0" style={{ color: "var(--text-color)" }}>
           <p className="mb-4">I'm a product-minded software engineer based in Bengaluru, IN. </p>
           <p>
             I'm currently open to exploring new opportunities in the
