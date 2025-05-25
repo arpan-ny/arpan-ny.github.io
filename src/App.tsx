@@ -42,7 +42,7 @@ const App: React.FC = () => {
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
-        <Footer />
+        <Footer darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       </div>
     </Router>
   );
