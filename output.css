@@ -566,12 +566,24 @@ video {
   position: absolute;
 }
 
+.relative{
+  position: relative;
+}
+
+.bottom-4{
+  bottom: 1rem;
+}
+
 .left-0{
   left: 0px;
 }
 
 .right-0{
   right: 0px;
+}
+
+.right-4{
+  right: 1rem;
 }
 
 .top-0{
@@ -790,6 +802,10 @@ video {
   padding: 0.5rem;
 }
 
+.p-3{
+  padding: 0.75rem;
+}
+
 .p-4{
   padding: 1rem;
 }
@@ -964,6 +980,9 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+  font-family: 'Delius', sans-serif;
+  /* Apply Google Font globally */
 }
 
 code {
@@ -974,19 +993,23 @@ code {
 /* You can define custom CSS variables here too */
 
 :root {
-  --primary-color:rgb(192, 192, 192);
+  --primary-color: rgb(192, 192, 192);
   /* Example: blue-500 */
   --app-background-color: #FFFFF5;
+  --text-color: #000000;
+  /* Default text color for light mode */
 }
 
 .light {
   --primary-color: #000000;
-  --app-background-color: #FFFFFF;
+  --app-background-color: #FFFFF5;
 }
 
 .dark {
   --primary-color: #38bdf8;
   --app-background-color: #18181b;
+  --text-color: #FFFFFF;
+  /* Text color for dark mode */
 }
 
 /* Any global classes that apply to multiple components, though with Tailwind, this is less common */
