@@ -14,7 +14,7 @@ const HomePage: React.FC = () => {
           <p className="mb-4">I'm a product-minded software engineer based in Bengaluru, IN. </p>
           <p>
             I'm currently open to exploring new opportunities in the
-            startup/developer tooling space.
+            AI/startup/developer tooling space.
           </p>
           {/* <p className="mb-4">
             I'm a product-minded software engineer based in Bengaluru, IN. I've
