@@ -32,6 +32,7 @@ const Contacts: React.FC = () => {
             onClick={handleCopy}
             aria-label="Copy email"
             className="focus:outline-none"
+            title="Copy Email!"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -49,6 +50,7 @@ const Contacts: React.FC = () => {
             </svg>
           </button>
         </div>
+        <div className="flex items-center space-x-2">Ph: +91 9521416660</div>
         <div style={{ height: "20px" }}>
           {copied && (
             <span className="text-green-600 text-sm">Email copied!</span>
