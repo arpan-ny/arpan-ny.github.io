@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         // 'sans' will now use your custom font first, then Tailwind's default sans-serif stack
-        sans: ['Delius', ...defaultTheme.fontFamily.sans],
+        sans: ['Anonymous Pro', ...defaultTheme.fontFamily.sans],
         // You could also define a completely new font family
         // display: ['Cool Display Font', 'serif'],
       },

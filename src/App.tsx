@@ -8,6 +8,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ResumePage from "./pages/ResumePage";
 import Contacts from "./pages/Contacts";
+import SkillsPage from "./pages/SkillsPage";
 
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState(() => {
@@ -37,6 +38,7 @@ const App: React.FC = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/notes" element={<NotesPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/skills" element={<SkillsPage />} />
             <Route path="/resume" element={<ResumePage />}></Route>
             <Route path="/contact" element={<Contacts />}></Route>
             <Route path="*" element={<NotFoundPage />} />

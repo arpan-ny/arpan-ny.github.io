@@ -40,6 +40,14 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
           </li>
           <li>
             <Link
+              to="/skills"
+              className="hover:text-blue-500 transition-colors duration-200"
+            >
+              skills
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/resume"
               className="hover:text-blue-500 transition-colors duration-200"
             >
@@ -98,6 +106,15 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
                 onClick={() => setMenuOpen(false)}
               >
                 projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/skills"
+                className="block w-full px-4 py-2 hover:text-blue-500 text-right"
+                onClick={() => setMenuOpen(false)}
+              >
+                skills
               </Link>
             </li>
             <li>
