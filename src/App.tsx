@@ -32,7 +32,7 @@ const App: React.FC = () => {
     <Router>
       <div className="flex flex-col min-h-screen font-sans bg-white dark:bg-zinc-900 transition-colors duration-300">
         <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-        <main className="flex-grow flex items-center justify-center pt-20 md:pt-0 px-2 sm:px-4">
+        <main className="flex-grow flex justify-center pt-32 px-2 sm:px-4">
           {/* pt-20 to ensure content starts below fixed header */}
           <Routes>
             <Route path="/" element={<HomePage />} />
