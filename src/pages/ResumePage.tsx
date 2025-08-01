@@ -26,7 +26,7 @@ const ResumePage: React.FC = () => {
         </a>
         {/* Download Resume Button */}
         <a
-          href="https://github.com/arpan-ny/arpan-ny.github.io/raw/dev/public/arpan_resume_v1.pdf"
+          href="https://github.com/arpan-ny/arpan-ny.github.io/raw/dev/public/Arpan_Nyati_Resume.pdf"
           download
           className="p-2 bg-gray-600 text-white rounded shadow hover:bg-gray-700 transition-colors flex items-center"
         >

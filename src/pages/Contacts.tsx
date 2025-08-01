@@ -56,6 +56,14 @@ const Contacts: React.FC = () => {
             <span className="text-green-600 text-sm">Email copied!</span>
           )}
         </div>
+        <a
+          href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=arpan-nyati"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-2 bg-gray-600 text-white rounded shadow hover:bg-gray-700 transition-colors flex items-center"
+        >
+          Follow on LinkedIn
+        </a>
       </div>
     </div>
   );
