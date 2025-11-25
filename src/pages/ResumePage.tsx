@@ -17,7 +17,7 @@ const ResumePage: React.FC = () => {
       <div className="flex space-x-4 mb-6">
         {/* Google Docs Resume Button */}
         <a
-          href="https://drive.google.com/file/d/1AMYtQ96NLmYhg36WIm76j0HqJsDxGG7U/view?usp=sharing"
+          href="https://drive.google.com/file/d/1x34fvWK4rsWlNp4u3YrelQHWEcKdX1S7/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="px-6 py-2 bg-gray-600 text-white rounded shadow hover:bg-gray-700 transition-colors flex items-center"
