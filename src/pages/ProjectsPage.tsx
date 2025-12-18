@@ -1,16 +1,44 @@
-import React from 'react';
+import React from "react";
 
 const ProjectsPage: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-start min-h-[60vh] p-4 sm:p-6">
-      <h1 className="text-2xl sm:text-4xl font-bold text-center mb-8" style={{ color: "var(--text-color)" }}>
+      <h1
+        className="text-2xl sm:text-4xl font-bold text-center mb-8"
+        style={{ color: "var(--text-color)" }}
+      >
         Projects
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 w-full max-w-5xl">
         <div className="bg-white dark:bg-zinc-800 rounded-lg shadow-md p-6 flex flex-col items-start transition-colors duration-300">
-          <h2 className="text-xl font-semibold mb-2 dark:text-white">Personal Portfolio Website</h2>
-          <p className="text-zinc-700 dark:text-zinc-300 mb-4">A modern, responsive portfolio website built with React and Tailwind CSS to showcase my projects and skills.</p>
-          <a href="#" className="text-blue-600 dark:text-blue-400 font-medium hover:underline">View Project</a>
+          <h2 className="text-xl font-semibold mb-2 dark:text-white">
+            Personal Portfolio Website
+          </h2>
+          <p className="text-zinc-700 dark:text-zinc-300 mb-4">
+            A modern, responsive portfolio website built with React and Tailwind
+            CSS to showcase my projects and skills.
+          </p>
+          <a
+            href="#"
+            className="text-blue-600 dark:text-blue-400 font-medium hover:underline"
+          >
+            View Project
+          </a>
+        </div>
+        <div className="bg-white dark:bg-zinc-800 rounded-lg shadow-md p-6 flex flex-col items-start transition-colors duration-300">
+          <h2 className="text-xl font-semibold mb-2 dark:text-white">
+            Full-Stack Trading Dashboard for Groww
+          </h2>
+          <p className="text-zinc-700 dark:text-zinc-300 mb-4">
+            An advanced trading and investment dashboard that securely interacts
+            with the Groww platform. This full-stack application features a
+            modern React and TypeScript frontend, a robust Python and FastAPI
+            backend, and real-time data visualization. Key functionalities
+            include secure user authentication, live market data feeds, and
+            detailed historical data analysis, all designed to provide a
+            comprehensive and seamless user experience for investment
+            management.
+          </p>
         </div>
         {/* <div className="bg-white dark:bg-zinc-800 rounded-lg shadow-md p-6 flex flex-col items-start transition-colors duration-300">
           <h2 className="text-xl font-semibold mb-2 dark:text-white">Notes App</h2>
